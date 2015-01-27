@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="@drawable/metal_bg">
+    
+    <ImageView 
+        android:id="@+id/ivGameOver"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/game_over"
+        android:contentDescription="@string/game_over_logo_desc"/>
+    
+    <TextView 
+        android:id="@+id/tvGameOverStats"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/btn_txt_blue"
+        android:textSize="20sp"
+        android:background="#66000000"/>
+    
+    <EditText 
+        android:id="@+id/etxtHighScore"
+        android:layout_width="250dip"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:hint="@string/game_over_high_score_hint"
+        android:textColor="@color/btn_txt_blue"
+        android:textSize="24sp"
+        android:layout_gravity="center_horizontal"
+        android:visibility="invisible"
+        android:layout_marginTop="10dip"
+        android:background="#66000000"/>
+    
+    <Button 
+        android:id="@+id/btnGameOverContinue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/btn_bg"
+        android:textColor="@color/btn_txt_blue"
+        android:text="@string/game_over_btn_continue_desc"
+        android:textSize="24sp"
+        android:layout_gravity="center_horizontal"
+        android:paddingRight="8dip"
+        android:paddingLeft="8dip"
+        android:layout_marginTop="10dip"
+        android:onClick="onClickContinue"/>
+    
+
+</LinearLayout>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Trump Cars</string>
+    <string name="action_settings">Settings</string>
+    <string name="main_power_ups_title">Power Ups</string>
+    <string name="main_player_card_desc">The players card image</string>
+    <string name="menu_btn_play_desc">Play</string>
+    <string name="menu_btn_scoreboard_desc">Scoreboard</string>
+    <string name="menu_btn_help_desc">Help</string>
+    <string name="menu_iv_logo_desc">Menu Logo</string>
+    <string name="scoreboard_title">Scoreboard</string>
+    <string name="help_title">Help</string>
+    <string name="menu_title">Main Menu</string>
+    <string name="menu_btn_exit_desc">Exit</string>
+    <string name="scoreboard_logo_desc">Top 5 Scores</string>
+    <string name="game_over_high_score_hint">Name</string>
+    <string name="game_over_btn_continue_desc">Continue</string>
+    <string name="game_over_logo_desc">Game Over</string>
+    <string name="game_over_title">Game Over</string>
+    <string name="main_power_up_fifty_fifty">50 / 50</string>
+    <string name="main_power_up_hint">Hint</string>
+    <string name="main_power_up_upgrade">Upgrade</string>
+    <string name="scoreboard_reset_btn_desc">Reset Scoreboard</string>
+    <string name="help_how_to_play">\n\nHow To Play\n
+\nIntro\nThis game is based on the popular card game trump cards. It is a game that requires on some luck, skill and your knowledge about 
+cars. The objective of the game is to beat your opponent by selecting a category that your car is better at than your opponent\'s car. The weight 
+category is the only case which you would want a lower figure to win the round.
+
+\n\nStep 1\n
+A card will be drawn for both you and your opponent, you only get to see your card for now.
+Click on the category you think has the best chance to beat your opponents card.
+
+\n\nStep 2\n
+You will now briefly be shown your opponents card and who won(look for green for a win and red for a lose). A new cad will be drawn for you and rinse repeat.
+
+\n\nLives: Keep an eye on your lifes in the top right hand corner shown as litle hearts with pistons inside of them. Each match will start with 3 lifes and 
+you will lose a life every time you lose a round until there are no more lives left.
+
+\n\nScore: Your score will be shown in the top left corner, you will be awarded one point for every round you win.
+
+\n\nPower-Ups\n
+There are 3 types of power ups available 50/50, Hint and Upgrade. Each can only be used 3 times in a match.
+\n\n50/50: This will remove 2 losing categories, there is a guaranteed winning category left to choice otherwise you get to keep your 50/50 power up.
+\n\nHint: This will briefly show you your oppenents car but not it\'s statistics.
+\n\nUpgrade: This is only become available with some cars, this will upgrade your card to a better model car.
+
+
+\n\n
+Defenition of chopped\n
+Aussie slang for getting beaten in a car race.\n
+Smack talk. Usually accompanied by a cutting\n
+hand motion like in rock, paper, scissors.\n
+Made famous by the Youtube sensation\n
+Mighty Car Mods guys Marty and Moog.\n\n
+Moog got chopped by Marty, so he had to\n
+give up his Nissan.\n\n
+Martys MX5 got chopped by Moogs S2000\n
+that is powered by unicorn farts.</string>
+    <string name="main_player_chooped_desc">Win / Lose Image Chooped</string>
+    <string name="title_activity_shop">ShopActivity</string>
+    <string name="hello_world">Hello world!</string>
+
+</resources>

@@ -1,0 +1,23 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ShopActivity" 
+    android:orientation="vertical"
+    android:background="@drawable/metal_bg">
+
+    <ImageView 
+        android:paddingTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/shop_logo"
+        android:layout_weight="1"/>
+    
+    <ListView 
+        android:id="@+id/lstvShop"
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="3"></ListView>
+    
+
+</LinearLayout>

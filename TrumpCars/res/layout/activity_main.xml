@@ -1,0 +1,124 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/black">
+        
+     <ImageView 
+        android:id="@+id/ivPlayerCard"
+        android:layout_centerHorizontal="true"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:src="@drawable/alfa_romeo_8c_competizione_07"
+        android:contentDescription="@string/main_player_card_desc"/>
+     
+     <ImageView 
+         android:id="@+id/ivChooped"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"         
+         android:layout_centerInParent="true"
+         android:src="@drawable/chopped_by"
+         android:paddingBottom="25dip"
+         android:visibility="invisible"
+         android:contentDescription="@string/main_player_chooped_desc"/>
+     
+     <LinearLayout 
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_alignBottom="@id/ivPlayerCard"
+         android:layout_alignRight="@id/ivPlayerCard"
+         android:layout_marginRight="15dip"
+         android:layout_marginBottom="8dip"
+         android:orientation="vertical">
+         
+	      <Button 
+	          android:id="@+id/btnPower"
+	          android:layout_width="fill_parent"
+	          android:layout_height="wrap_content"
+	          android:textColor="@color/btn_txt_blue"
+	          android:background="@drawable/btn_bg"
+	          android:onClick="onClickPower"
+	          />
+	      
+	      <Button 
+	          android:id="@+id/btnTorque"
+	          android:layout_width="fill_parent"
+	          android:layout_height="wrap_content"
+	          android:textColor="@color/btn_txt_blue"
+	          android:background="@drawable/btn_bg"
+	          android:onClick="onClickTorque"/>
+	      
+	      <Button 
+	          android:id="@+id/btnWeight"
+	          android:layout_width="fill_parent"
+	          android:layout_height="wrap_content"
+	          android:textColor="@color/btn_txt_blue"
+	          android:background="@drawable/btn_bg"
+	          android:onClick="onClickWeight"/>
+	      
+	      <Button 
+	          android:id="@+id/btnDisplacement"
+	          android:layout_width="fill_parent"
+	          android:layout_height="wrap_content"
+	          android:textColor="@color/btn_txt_blue"
+	          android:background="@drawable/btn_bg"
+	          android:onClick="onClickDisplacement"/>
+	         
+     </LinearLayout>
+     
+     <LinearLayout 
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_alignBottom="@id/ivPlayerCard"
+         android:layout_alignLeft="@id/ivPlayerCard"
+         android:layout_marginLeft="15dip"
+         android:layout_marginBottom="8dip"
+         android:orientation="vertical">
+	      
+     <TextView 
+         android:id="@+id/tvPowerUps"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:text="@string/main_power_ups_title"
+         android:textColor="#000000"
+         android:textSize="24sp"
+         android:textStyle="bold"
+         />
+<!--   Feature not ready yet -->  
+     <Button 
+         android:id="@+id/btnFiftyFifty"
+         android:layout_width="fill_parent"
+         android:layout_height="wrap_content"
+         android:background="@drawable/btn_bg"
+         android:drawableLeft="@drawable/brake_5050"
+         android:text="@string/main_power_up_fifty_fifty"
+         android:textColor="@color/btn_txt_blue"
+         android:onClick="onClickFiftyFifty"
+
+         />
+     
+     <Button 
+         android:id="@+id/btnHint"
+         android:layout_width="fill_parent"
+         android:layout_height="wrap_content"
+         android:background="@drawable/btn_bg"
+         android:drawableLeft="@drawable/hint"
+         android:text="@string/main_power_up_hint"
+         android:textColor="@color/btn_txt_blue"
+         android:onClick="onClickHint"
+         />
+     
+     <Button
+         android:id="@+id/btnUpgrade"
+         android:layout_width="135dp"
+         android:layout_height="wrap_content"
+         android:background="@drawable/btn_bg"
+         android:drawableLeft="@drawable/upgrade"
+         android:singleLine="true"
+         android:text="@string/main_power_up_upgrade"
+         android:textColor="@color/btn_txt_blue"
+         android:onClick="onClickUpgrade"
+         android:visibility="invisible" />
+	      
+     </LinearLayout>
+
+</RelativeLayout>

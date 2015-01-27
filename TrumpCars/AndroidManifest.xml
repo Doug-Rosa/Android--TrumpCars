@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="za.co.toasteacomputing.trumpcars"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="19" />
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/app_icon"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="za.co.toasteacomputing.trumpcars.MainMenuActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="za.co.toasteacomputing.trumpcars.MainActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="za.co.toasteacomputing.trumpcars.GameOverActivity"
+            android:label="@string/game_over_title"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="za.co.toasteacomputing.trumpcars.ScoreboardActivity"
+            android:label="@string/scoreboard_title"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="za.co.toasteacomputing.trumpcars.HelpActivity"
+            android:label="@string/help_title"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="za.co.toasteacomputing.trumpcars.ShopActivity"
+            android:label="@string/title_activity_shop" >
+        </activity>
+    </application>
+
+</manifest>
